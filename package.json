@@ -1,0 +1,23 @@
+{
+  "name": "elink_utills",
+  "version": "1.0.0",
+  "description": "业务上常用的工具集",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yoyo-sophia/elink_utills.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yoyo-sophia/elink_utills/issues"
+  },
+  "homepage": "https://github.com/yoyo-sophia/elink_utills#readme",
+  "devDependencies": {}
+}
