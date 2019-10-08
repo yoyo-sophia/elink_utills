@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <style>
+    .g-wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      height: 200px;
+      background-color: #e0ffc5;
+    }
+    .g-wrapper div{
+      /*margin: auto;*/
+      width: 100%;
+      text-align: center;
+      box-sizing: border-box;
+    }
+
+    .g-wrapper > div:first-child{
+      margin-top: auto;
+    }
+    .g-wrapper > div:last-child{
+      margin-bottom: auto;
+    }
+
+    .multiple-vertical-middle{
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+    }
+    .multiple-vertical-middle p:nth-child(2),
+    .multiple-vertical-middle p:nth-child(3),
+    .multiple-vertical-middle p:nth-child(4) {
+      margin: auto 0;
+    }
+    .multiple-vertical-middle p:last-child{
+      margin-bottom: auto;
+    }
+  </style>
+</head>
+<body>
+<!-- 利用margin auto 自动居中 -->
+<div class="g-wrapper">
+  <div>test1</div>
+  <div>ei yo gg</div>
+  <div>222</div>
+</div>
+
+<!--多行垂直居中-->
+<div class="multiple-vertical-middle">
+  <p>1、Simon Says</p>
+  <p>2、Baby don't stop</p>
+  <p>3、Unlimited</p>
+  <p>4、We go up</p>
+  <p>5、We young</p>
+</div>
+</body>
+</html>
